@@ -10,7 +10,7 @@ const rootElement = document.getElementById("root");
 
 if (rootElement) {
   ReactDOM.createRoot(rootElement).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/Pizzas-APP">
       <Provider store={store}>
         <App />
       </Provider>
